@@ -1,0 +1,11 @@
+.Todo alignd{
+    display: flex;
+    align-items:center;
+}
+.Done{
+    text-decoration: line-through;
+    font-size: xx-small;
+}
+.noCheckDone{
+    margin-left: 30px;
+}
