@@ -13,18 +13,6 @@ class App extends React.Component {
 
     render() {
         return (
-            // <div className='TodoList'>
-            //     <table>
-            //         <thead>
-            //             <tr></tr>
-            //         </thead>
-            //         <tbody>
-            //             <tr>
-            //                 <td><TodoList></TodoList></td>
-            //             </tr>
-            //         </tbody>
-            //     </table>
-            // </div>
             <div>
                 <TodoList ></TodoList>
             </div>

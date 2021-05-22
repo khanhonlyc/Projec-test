@@ -4,8 +4,7 @@ import './Todo.css';
 class Todo extends React.Component {
     constructor(props) {
         super(props);
-       //this.state={taskName:''}
-       this.state = {
+        this.state = {
            id:props.id,
            value:props.value,
            done:props.done
@@ -17,8 +16,6 @@ class Todo extends React.Component {
     }
 
     completeTask = () => {
-        //console.log('ok',this.state.id);
-        //completeTask
         this.setState({done:true});
         this.props.completeTask(this.state.id);
     }
@@ -51,6 +48,7 @@ class Todo extends React.Component {
                 &nbsp;&nbsp;
                 <span className={this.state.done ? 'Done':''}>
                     {this.state.value}
+                    
                 </span>
             </div>
         );
