@@ -10,7 +10,7 @@ class TodoList extends React.Component {
             tasks: [
                  {id: 0, name: '読書', done: false},
                  {id: 1, name: '買い物を買いに行く', done: false},
-                 //{id: 2, name: '日本語を勉強すること', done: false}
+                 {id: 2, name: '日本語を勉強すること', done: false}
             ]
         };
     }
